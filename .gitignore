@@ -1,0 +1,21 @@
+.cache/
+release/
+test-results/
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/__pycache__/
+.venv/
+*.pyc
+*.pdb
+*.log
+*.local
+*.zip
+*.partial
+.env
+.env.*
+bp-studio.json
+Local State
+ready.json
+.vs/

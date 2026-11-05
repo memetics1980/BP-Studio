@@ -1,0 +1,235 @@
+{
+  "motions": [
+    {
+      "id": 1,
+      "category": "教育",
+      "level": "入门",
+      "title": "This House would ban the use of AI-generated content in school assignments.",
+      "zh": "本院将禁止在学校作业中使用 AI 生成的内容。",
+      "tags": [
+        "人工智能",
+        "学术诚信"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "社会",
+      "level": "入门",
+      "title": "This House would make voting compulsory.",
+      "zh": "本院将实行强制投票。",
+      "tags": [
+        "公民责任",
+        "民主"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "教育",
+      "level": "入门",
+      "title": "This House would abolish university tuition fees.",
+      "zh": "本院将取消大学学费。",
+      "tags": [
+        "教育公平",
+        "公共财政"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "科技",
+      "level": "进阶",
+      "title": "This House would ban targeted advertising based on personal data.",
+      "zh": "本院将禁止基于个人数据的定向广告。",
+      "tags": [
+        "隐私",
+        "平台经济"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "环境",
+      "level": "入门",
+      "title": "This House would make public transport free.",
+      "zh": "本院将实行免费公共交通。",
+      "tags": [
+        "城市生活",
+        "气候"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "社会",
+      "level": "进阶",
+      "title": "This House prefers a world without social media influencers.",
+      "zh": "本院更倾向于一个没有社交媒体网红的世界。",
+      "tags": [
+        "媒体",
+        "文化"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "经济",
+      "level": "进阶",
+      "title": "This House would introduce a universal basic income.",
+      "zh": "本院将实施全民基本收入。",
+      "tags": [
+        "福利",
+        "自动化"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "教育",
+      "level": "入门",
+      "title": "This House would replace school examinations with continuous assessment.",
+      "zh": "本院将以过程性评价取代学校考试。",
+      "tags": [
+        "评价方式",
+        "学习"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "科技",
+      "level": "进阶",
+      "title": "This House would require AI-generated media to be clearly labelled.",
+      "zh": "本院将要求明确标注 AI 生成的媒体内容。",
+      "tags": [
+        "透明度",
+        "监管"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "环境",
+      "level": "进阶",
+      "title": "This House would prioritise climate adaptation over climate mitigation in developing countries.",
+      "zh": "本院将在发展中国家优先采取气候适应措施，而非气候减缓措施。",
+      "tags": [
+        "发展",
+        "资源分配"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "经济",
+      "level": "进阶",
+      "title": "This House would implement a four-day working week.",
+      "zh": "本院将实行每周四天工作制。",
+      "tags": [
+        "劳动",
+        "生产力"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "社会",
+      "level": "入门",
+      "title": "This House believes that museums should return artefacts to their countries of origin.",
+      "zh": "本院认为博物馆应将文物归还其原属国。",
+      "tags": [
+        "文化遗产",
+        "历史"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "PM",
+      "name": "首相",
+      "english": "Prime Minister",
+      "team": "上院政府",
+      "duty": "为整场辩论建立清晰的讨论框架。",
+      "steps": [
+        "界定辩题与必要的政策机制",
+        "说明现状问题及受影响群体",
+        "展开核心论证：主张 → 机制 → 影响"
+      ]
+    },
+    {
+      "id": "LO",
+      "name": "反对党领袖",
+      "english": "Leader of Opposition",
+      "team": "上院反对",
+      "duty": "回应政府方案，建立独立且有说服力的反对立场。",
+      "steps": [
+        "回应政府框架与核心论点",
+        "阐述反对方立场或替代方案",
+        "解释为什么反对方世界更好"
+      ]
+    },
+    {
+      "id": "DPM",
+      "name": "副首相",
+      "english": "Deputy Prime Minister",
+      "team": "上院政府",
+      "duty": "修复政府论证，直接回应反对方。",
+      "steps": [
+        "识别反对方最有力的攻击",
+        "重建同伴论证的关键机制",
+        "深化论证并比较双方影响"
+      ]
+    },
+    {
+      "id": "DLO",
+      "name": "反对党副领袖",
+      "english": "Deputy Leader of Opposition",
+      "team": "上院反对",
+      "duty": "巩固反对方，推进双方争点。",
+      "steps": [
+        "回应政府方的反驳",
+        "深化同伴的独立论证",
+        "围绕关键争点比较双方"
+      ]
+    },
+    {
+      "id": "MG",
+      "name": "政府成员",
+      "english": "Member of Government",
+      "team": "下院政府",
+      "duty": "在支持同一立场的同时，贡献有意义的延伸。",
+      "steps": [
+        "说明与上院政府的共同立场",
+        "提出独特分析、群体或机制",
+        "解释延伸如何改变争点判断"
+      ]
+    },
+    {
+      "id": "MO",
+      "name": "反对党成员",
+      "english": "Member of Opposition",
+      "team": "下院反对",
+      "duty": "为反对阵营带来独立且重要的贡献。",
+      "steps": [
+        "回应政府阵营的关键论证",
+        "建立下院反对的实质延伸",
+        "说明本队贡献的相对重要性"
+      ]
+    },
+    {
+      "id": "GW",
+      "name": "政府党鞭",
+      "english": "Government Whip",
+      "team": "下院政府",
+      "duty": "围绕争点收束辩论，证明本队贡献最重要。",
+      "steps": [
+        "将辩论整理为主要争点",
+        "比较双方及同方队伍贡献",
+        "强调本队延伸，避免新独立论证"
+      ]
+    },
+    {
+      "id": "OW",
+      "name": "反对党鞭",
+      "english": "Opposition Whip",
+      "team": "下院反对",
+      "duty": "完成全场比较，突出下院反对的贡献。",
+      "steps": [
+        "回应政府党鞭的比较",
+        "以主要争点评估四队贡献",
+        "收束本队优势，避免新独立论证"
+      ]
+    }
+  ],
+  "sample": "Madam Speaker, we propose that schools prohibit students from submitting AI-generated text as their own assessed work, while allowing AI for brainstorming when it is disclosed. Our first argument concerns learning. When students outsource the reasoning and writing process, teachers can no longer identify which skills they have mastered. This matters especially for beginners, who need practice constructing arguments before they can evaluate a machine’s output. For example, a student who submits a polished AI essay may still be unable to explain its central claim. The opposition may argue that AI improves access to support. We agree that support matters, but suggest that teacher feedback and disclosed brainstorming preserve that benefit without replacing the assessed work. Therefore, our policy better protects the purpose of education."
+}

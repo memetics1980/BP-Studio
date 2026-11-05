@@ -1,0 +1,17 @@
+BP辩论训练工作台
+开发者：少数派memetics
+
+1. 将压缩包完整解压到本机文件夹，再双击 BPStudio.exe。不要在压缩包预览窗口内直接启动，也不要只复制 exe。
+2. 首次打开会自动准备内置 Whisper Base 模型和专用语音环境。此步骤无需联网，无需另装 Python、FFmpeg、.NET 或 WebView2；请等待底部准备提示结束。
+3. 打开发言练习，录音或导入音频，然后点击“转写”。本地转写不需要填写 API 信息。
+4. 要生成 AI 复盘，打开左下角“应用设置 → AI 反馈模型”，选择本地 Ollama 或兼容 API，填写自己的服务地址、模型名称，以及所需 API Key，再检查连接。使用本地模型时，请确保所填服务已启动并且模型已安装。
+5. 更大的 Whisper 模型可在“应用设置 → 语音识别”中自行选择下载；不下载也可以使用内置 Base。
+6. 左下角“关于”可查看当前版本及开发者；右上角可选择主题和调整界面大小。
+
+适用平台：Windows x64。本包不含 AI 反馈用的大语言模型，也不含开发者的账号、API Key、草稿或练习记录。
+首次自动准备需要向当前用户的本地应用数据目录写入语音资源，请为解压后的程序及语音资源预留合计约 2 GB 空间。
+用户资料保存在 %APPDATA%\bp-studio-native，语音资源保存在 %LOCALAPPDATA%\BPStudio\speech\managed。以后升级请完整解压新版本，退出旧程序后启动新版，原有资料仍保留。
+
+请保留同目录下的 speech、webview-runtime、wwwroot 等文件夹和所有 DLL。语音和界面所需运行环境已随包附带，不需要手工运行安装脚本。
+
+随附第三方组件适用其原始许可，见 licenses 及 THIRD_PARTY_SPEECH.md。微软固定 WebView2 运行环境的完整条款见 licenses/WebView2-Runtime-LICENSE.html；启动、使用该组件即表示接受其许可条款。

@@ -1,0 +1,13 @@
+.theme-toggle[aria-expanded=true]{color:var(--accent);background:var(--accent-soft)}
+.theme-flyout{position:fixed;z-index:35;width:208px;padding:7px;background:var(--surface);border:1px solid var(--line);border-radius:9px;box-shadow:0 8px 28px #14213a26;color:var(--text);transform-origin:calc(100% - 16px) top;animation:theme-flyout-in 160ms cubic-bezier(.2,.8,.2,1) both}
+:root[data-theme=dark] .theme-flyout{box-shadow:0 8px 28px #0005}
+.theme-flyout-heading{font-size:0.8125rem;color:var(--muted);padding:6px 10px 8px;user-select:none}
+.theme-flyout>button{width:100%;min-height:38px;justify-content:flex-start;gap:11px;padding:9px 10px;border:0;background:transparent;border-radius:5px;font-size:0.9375rem;font-weight:400}
+.theme-flyout>button[aria-checked=true]{color:var(--accent);background:var(--accent-soft)}
+.theme-flyout>button:hover:not(:disabled){background:var(--hover)}
+.theme-flyout>button:focus-visible{outline-offset:-2px}
+.theme-check{margin-left:auto}
+.theme-flyout.leaving{pointer-events:none;animation:theme-flyout-out 110ms ease-in both}
+@keyframes theme-flyout-in{from{opacity:0;transform:translateY(-6px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes theme-flyout-out{from{opacity:1;transform:translateY(0) scale(1)}to{opacity:0;transform:translateY(-4px) scale(.98)}}
+@media(prefers-reduced-motion:reduce){.theme-flyout,.theme-flyout.leaving{animation:none}}

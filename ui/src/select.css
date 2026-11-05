@@ -1,0 +1,14 @@
+.select-trigger{justify-content:space-between;gap:12px;text-align:left;color:var(--text);background:var(--field);font-weight:400;min-width:0}
+.select-trigger>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;flex:1}
+.select-trigger>svg{color:var(--muted);flex-shrink:0}
+.select-trigger[aria-expanded=true]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.select-popup{position:fixed;z-index:60;padding:5px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:6px;box-shadow:0 6px 20px #0003;overflow:auto;overscroll-behavior:contain;font-size:0.9375rem;line-height:1.45;color-scheme:inherit}
+.select-option{min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:14px;border-radius:3px;padding:8px 10px;cursor:pointer;color:var(--text);user-select:none;overflow-wrap:anywhere}
+.select-option>svg{flex-shrink:0;color:var(--accent)}
+.select-option.selected{font-weight:600}
+.select-option.highlighted{color:var(--text);background:var(--active)}
+.select-option[aria-disabled=true]{opacity:.45;cursor:default}
+.form-stack .select-trigger{width:100%;font-size:0.9375rem;min-height:35px}
+.field-inline .select-trigger{font-size:0.875rem;min-width:95px;padding-top:6px;padding-bottom:6px;background:transparent}
+.select-trigger.device-select{min-height:31px;font-weight:400;padding-right:5px}
+.filter-bar .select-trigger{min-width:90px;font-size:0.875rem}

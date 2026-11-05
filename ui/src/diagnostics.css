@@ -1,0 +1,33 @@
+.inspector{overflow-y:auto;scrollbar-gutter:stable;display:block!important}
+.inspector>section{margin-bottom:20px}
+.previous-section label{display:flex;flex-direction:column;gap:6px;margin:12px 0;font-size:.8125rem;color:var(--muted)}
+.previous-section .select-trigger{width:100%;min-width:0;font-size:.8125rem}
+.previous-section textarea{display:block;width:100%;min-height:150px;resize:vertical;font-size:.875rem;line-height:1.75}
+.previous-section small{display:block;font-size:.75rem;line-height:1.6;color:var(--muted);margin-top:7px}
+.previous-relation,.previous-retained{font-size:.75rem!important;color:var(--muted);line-height:1.7!important;margin:8px 0!important}
+.context-section textarea{min-height:110px;flex:none}
+.review-tabs{overflow-x:auto;overflow-y:hidden;white-space:nowrap;min-height:50px}
+.review-tabs button{flex-shrink:0}
+.source-picker{padding:10px 16px;border-bottom:1px solid var(--line)}
+.source-picker .select-trigger{width:100%;font-size:.8125rem}
+.source-material-label{font-size:.75rem;color:var(--muted);margin-bottom:15px}
+.priority-issues{border-left:3px solid var(--accent);padding:1px 18px;margin-top:25px;background:var(--accent-soft)}
+.priority-issues h3{margin-top:14px}.priority-issues ol{padding-left:21px}.priority-issues li{margin:10px 0;font-size:.9em}
+.diagnostic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:24px 0}
+.diagnostic-grid button{text-align:left;display:flex;flex-direction:column;align-items:flex-start;gap:8px;white-space:normal;padding:12px;font-size:.8em;line-height:1.6;background:var(--surface)}
+.diagnostic-grid button.selected{border-color:var(--accent);background:var(--accent-soft)}
+.diagnostic-status{font-size:.75rem;font-weight:400;padding:2px 7px;border:1px solid var(--line);border-radius:4px;color:var(--muted);white-space:nowrap;flex-shrink:0}
+.diagnostic-status.complete{color:var(--accent);border-color:var(--accent)}
+.diagnostic-status.missing{font-weight:600;color:var(--text);border-style:dashed}
+.diagnostic-report{border-top:1px solid var(--line);padding-top:18px}.diagnostic-report h4{font-size:.9em;margin:24px 0 9px}
+.diagnostic-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}.diagnostic-heading h3,.diagnostic-heading h4{margin:7px 0 12px}
+.diagnostic-report p{font-size:.9em}
+.diagnostic-evidence blockquote{margin:12px 0;padding:12px 16px;border-left:2px solid var(--line);background:var(--bg);overflow-wrap:anywhere}
+.diagnostic-evidence strong{font-size:.75rem;color:var(--muted);font-weight:500}.diagnostic-evidence p{margin:8px 0}.diagnostic-evidence button{margin-top:8px}
+.evidence-warning{font-size:.75rem!important;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
+.diagnostic-details{margin:20px 0;border:1px solid var(--line);border-radius:5px;overflow:hidden}.diagnostic-details>section{padding:15px 18px;border-bottom:1px solid var(--line)}.diagnostic-details>section:last-child{border-bottom:0}
+@media(max-width:1000px){.diagnostic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.compare .diagnostic-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:620px){.previous-section textarea{min-height:85px}.inspector{max-height:260px!important}.diagnostic-grid{grid-template-columns:minmax(0,1fr)}.diagnostic-details>section{padding:12px}.review-tabs{gap:16px}}
+@media(max-width:620px){.page-practice{overflow-y:auto}.page-practice .practice-columns{flex:0 0 auto;min-height:540px}.page-practice .editor-panel{min-height:220px;flex:1}.page-practice .inspector{height:250px;min-height:250px;overflow-y:auto}.page-practice .capture-bar{flex-shrink:0}}
+
+.export-format-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:22px}.export-format-options button{display:flex;align-items:center;gap:12px;text-align:left;white-space:normal;background:var(--surface);padding:16px}.export-format-options button.selected{border-color:var(--accent);background:var(--accent-soft)}.export-format-options span{flex:1;min-width:0}.export-format-options strong{display:block;font-size:.9375rem}.export-format-options small{display:block;color:var(--muted);font-size:.75rem;margin-top:7px;line-height:1.6}.export-format-options svg{flex-shrink:0}@media(max-width:620px){.export-format-options{grid-template-columns:minmax(0,1fr)}}

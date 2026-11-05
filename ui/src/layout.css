@@ -1,0 +1,38 @@
+/* Windows DPI scales the host. These sizes are logical pixels; user zoom is applied once by WebView2. */
+.topbar{height:52px;min-height:52px}
+.topbar-right{gap:10px;min-width:0}
+.model-label{font-size:.8125rem}
+button.icon{width:34px;min-width:34px;height:34px;min-height:34px}
+.motion-heading{padding-inline:max(24px,calc((100% - 1800px)/2 + 24px));min-height:103px}
+.motion-heading h1{font-size:1.375rem}
+.practice-toolbar{width:100%;max-width:1800px;margin-inline:auto;min-height:62px}
+.practice-columns{width:100%;max-width:1800px;margin-inline:auto;grid-template-columns:minmax(0,1fr) clamp(280px,24vw,360px);gap:20px}
+.transcript-editor{font-size:1.125rem;line-height:1.85;padding-inline:max(24px,calc((100% - 940px)/2))}
+.inspector p:not(.role-english),.role-steps{font-size:.875rem;line-height:1.8}
+.context-section textarea{font-size:.875rem;line-height:1.75}
+.panel-heading h2{font-size:1rem}
+.capture-bar{padding-inline:max(24px,calc((100% - 1800px)/2 + 24px))}
+.capture-actions>button{font-size:.875rem;min-height:37px}
+.capture-actions .device-select{font-size:.8125rem;width:155px;max-width:180px}
+.capture-meter strong{font-size:1.25rem}
+.player{min-height:54px}
+.audio-name{font-size:.8125rem;max-width:220px}
+.player-time,.statusbar{font-size:.75rem}
+.statusbar{height:29px}
+.collection-layout{width:100%;max-width:1800px;margin-inline:auto}
+.modal{width:650px}
+.modal-body{font-size:1rem}
+.modal-body .form-stack input,.modal-body .form-stack textarea{font-size:.9375rem}
+.settings-content{max-width:860px}
+.settings-content .form-stack{max-width:720px}
+.settings-content .form-stack>label,.settings-content .form-stack input{font-size:.9375rem}
+.theme-flyout>button{min-height:41px}
+.select-option{min-height:39px}
+.guide-content{max-width:920px}
+@media(max-width:1250px){.practice-columns{grid-template-columns:minmax(0,1fr) 265px;gap:16px}.capture-actions .device-select{width:135px}.capture-bar{gap:10px}.capture-actions>button{padding:7px 9px}.capture-meter{gap:6px}}
+@media(max-width:1000px){.practice-columns{grid-template-columns:minmax(0,1fr) 235px;gap:13px}.capture-meter .poi-label{font-size:.75rem}.motion-heading h1{font-size:1.1875rem}.model-label{max-width:260px}}
+@media(max-width:760px){.motion-heading{padding-inline:16px;min-height:90px}.motion-heading h1{font-size:1.0625rem}.practice-toolbar{padding:9px 16px;min-height:53px}.practice-columns{grid-template-columns:minmax(0,1fr) 205px;gap:12px;padding:0 16px 12px}.inspector p:not(.role-english),.role-english,.context-section textarea{font-size:.8125rem}.transcript-editor{font-size:1.0625rem;padding-inline:18px}.capture-bar{padding:9px 16px}.capture-actions .device-select{width:140px;max-width:150px}.capture-actions>button{font-size:.8125rem}.topbar{padding-inline:16px}.model-label{max-width:180px}.player{min-height:48px}.player .audio-name{max-width:120px}.player .player-time{font-size:.75rem}.statusbar>span:last-child{max-width:45%}.review-document{padding:22px}.page-title h1{font-size:1.375rem}}
+@media(max-width:620px){.practice-columns{display:flex;flex-direction:column;gap:12px}.editor-panel{min-height:180px;flex:1}.inspector{border-left:0;border-top:1px solid var(--line);padding:10px 0 0;flex:none;max-height:230px}.inspector>section:first-child{display:none}.context-section{min-height:120px}.context-section textarea{min-height:75px}.model-label{max-width:130px}.breadcrumbs{gap:6px;font-size:.8125rem}.topbar-right{gap:4px}.capture-actions{gap:5px}.capture-actions .device-select{width:126px}.capture-actions>.primary{margin-left:0}.motion-heading{gap:8px}.motion-heading>button{padding:6px 8px;font-size:.8125rem}.field-inline .select-trigger{min-width:86px}.practice-toolbar>.quiet{font-size:.8125rem}.statusbar>span:last-child{display:none}.player .audio-name{max-width:110px}.review-tools .segment button{padding-inline:7px}.review-tabs{gap:14px}.review-tabs button{font-size:.8125rem}.review-tools{gap:4px}.review-tools .source-toggle{font-size:.75rem;padding-inline:7px}.guide-body{grid-template-columns:135px minmax(0,1fr)}.guide-content{padding:18px}.role-navigation{padding:8px}.role-navigation button>span{font-size:.8125rem}}
+@media(max-height:580px){.topbar{height:44px;min-height:44px}.motion-heading{min-height:74px;padding-top:10px;padding-bottom:10px}.motion-heading h1{font-size:1.0625rem}.practice-toolbar{min-height:47px;padding-top:6px;padding-bottom:6px}.capture-bar{padding-top:7px;padding-bottom:7px;min-height:55px}.capture-actions>button{min-height:33px}.player{height:44px;min-height:44px}.statusbar{height:24px}.context-section{min-height:95px}.context-section textarea{min-height:65px}.editor-footer{padding-top:6px;padding-bottom:6px}.panel-heading{padding-top:8px;padding-bottom:8px}.page-title{padding-top:12px;padding-bottom:12px}.review-tools{min-height:44px;padding-top:6px;padding-bottom:6px}.review-tabs button{padding-top:9px;padding-bottom:9px}}
+@media(max-height:430px){.page-practice,.page-library,.page-history{overflow:auto}.page-practice .practice-columns{flex:none;min-height:180px}.page-practice .capture-bar{flex-shrink:0}.collection-layout{min-height:230px}.collection-layout .library-body,.history-table{min-height:60px}.page-practice .inspector{max-height:190px}.motion-heading .eyebrow{margin-bottom:4px}.motion-heading{min-height:65px}.topbar{height:40px;min-height:40px}.player{height:40px;min-height:40px}}
+@media(max-height:580px) and (min-height:431px){.transcript-editor{min-height:50px}.editor-panel>.panel-heading{padding-top:6px;padding-bottom:6px}.editor-panel>.panel-heading h2{font-size:.875rem}.editor-footer{padding-top:4px;padding-bottom:4px;font-size:.75rem}}
